@@ -5,9 +5,6 @@ Sprite::Sprite() {
 }
 
 void Sprite::initialize() {
-	//Por enquanto trabalharemos apenas com sprites retangulares
-	//com cor e textura -- e por enquanto sem spritesheet
-	
 	float vertices[] = {
 		// positions          // colors           // texture coords
 		0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0, // top right
