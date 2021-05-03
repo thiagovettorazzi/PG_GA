@@ -106,7 +106,7 @@ bool Sprite::verificaColisaoComAMao(float alturaMao, float comprimentoMao, float
 bool Sprite::verificaColisaoComFinalTela() {
 	// Só verifica a colisão se está vivo
 	if (vivo) {
-		// Se bateu na mão em X
+		// Se bateu no final da tela
 		if (pos[0] == (scale.x / 2)) {
 			vivo = false;
 			return true;

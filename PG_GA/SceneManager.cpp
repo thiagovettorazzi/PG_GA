@@ -114,7 +114,6 @@ void SceneManager::update() {
 				if (objects[i]->verificaColisaoComAMao(maoAltura, maoComprimento, maoEixoY)) {
 					pontos += 1;
 					cout << "Voce tem: R$ " << pontos << ",00" << endl;
-					objects[i]->setTexture(0);
 				}
 			}
 			tempoReferencial = (float)glfwGetTime();
