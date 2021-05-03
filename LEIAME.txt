@@ -1,0 +1,8 @@
+O jogo
+- O jogo consiste em pegar os aviões de dinheiro que vem na direção da mão.
+- Caso deixe passar 3 aviões o jogo acaba e o jogador perde.
+
+Rodar o projeto
+- A estrutura base do projeto foi o framework passado em aula, então para rodar o jogo o projeto só precisa estar
+com as mesmas configurações do exemplo do framework.
+- Os acontecimentos do jogo aparecem no console, não utilizei métodos para mostrar no jogo mesmo os textos com acontecimentos
